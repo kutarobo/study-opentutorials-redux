@@ -1,0 +1,22 @@
+{
+  "name": "redux",
+  "version": "1.0.0",
+  "description": "이고잉님 리덕스 강의 공부",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kutarobo/study-opentutorials-redux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kutarobo/study-opentutorials-redux/issues"
+  },
+  "homepage": "https://github.com/kutarobo/study-opentutorials-redux#readme",
+  "dependencies": {
+    "redux": "^4.1.1"
+  }
+}
