@@ -1,0 +1,24 @@
+<html>
+    <body>
+        <style>
+            .container {
+                border: 5px solid black;
+            }
+        </style>
+        <div id="red"></div>
+        <script>
+            function red() {
+                document.querySelect('#red').innerHtml =  `
+                    <div class="container" id="component_red">
+                        <h1>red</red>
+                        <input type="button" value="fire" onclick="
+                        document.querySelect('component_red').style.background = 'green'
+                        document.querySelect('component_green').style.background = 'green'
+                        document.querySelect('component_blue').style.background = 'green'
+                        ";
+                    </div>
+                `;
+            }
+        </script>
+    </body>
+</html>
